@@ -1,0 +1,16 @@
+2 - 
+	a)
+	Primeira etapa: Pré-processamento do arquivo, inclui remoção de comentários, #, e sequências que não são interpretadas. O arquivo resultante é um arquivo intermediário cuja extensão é .i;
+	Segunda etapa: converte o arquivo.i em arquivo.s que representa a linguagem assembly;
+	Terceira etapa: corverção do arquivo de linguagem assembly para linguagem de máquina, binário ou hexadecimal, o arquivo resultante tem extensão .o ou .obj
+	Quarta etapa: relação das bibliotecas utilizadas, o arquuivo resultante tem extensão .exe ou .out
+	
+	b)
+	i. -static: linka as bibliotecas de forma estática ao programa de forma que não precisa ter acesso ao arquivo delas em tempo de execução para rodar.
+	ii. -g: printa informações padrão da ferramenta de debug
+	iii. -pedantic: desativa as extensões e gera mais warnings
+	iv. -wall: ativa todos os warnings
+	v. -os: ativa otimzação
+	vi. -o3: ativa otimização
+
+	
